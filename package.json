@@ -1,0 +1,61 @@
+{
+  "name": "israeli-pension-scrapers",
+  "version": "0.1.0",
+  "description": "Scrape Israeli pension, קרן השתלמות (study fund) and קופות גמל (provident fund) balances from the major providers — Migdal, Harel, Clal (headless OTP login) plus Meitav and Menora (visible Chromium window for the CAPTCHA wall).",
+  "keywords": [
+    "israel",
+    "israeli",
+    "pension",
+    "kupot-gemel",
+    "keren-hishtalmut",
+    "puppeteer",
+    "scraper",
+    "migdal",
+    "harel",
+    "clal",
+    "meitav",
+    "menora"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "example:quick-start": "tsx examples/quick-start.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "puppeteer": "^24.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaharsolomons/israeli-pension-scrapers.git"
+  },
+  "homepage": "https://github.com/shaharsolomons/israeli-pension-scrapers#readme",
+  "bugs": {
+    "url": "https://github.com/shaharsolomons/israeli-pension-scrapers/issues"
+  }
+}
