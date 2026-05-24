@@ -52,10 +52,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shaharsolomons/israeli-pension-scrapers.git"
+    "url": "git+https://github.com/MotionPeak/israeli-pension-scrapers.git"
   },
-  "homepage": "https://github.com/shaharsolomons/israeli-pension-scrapers#readme",
+  "homepage": "https://github.com/MotionPeak/israeli-pension-scrapers#readme",
   "bugs": {
-    "url": "https://github.com/shaharsolomons/israeli-pension-scrapers/issues"
+    "url": "https://github.com/MotionPeak/israeli-pension-scrapers/issues"
   }
 }
